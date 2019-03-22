@@ -45,10 +45,6 @@ if ( have_posts() ) :
 		}
 
 		?>
-
-		<?php if ( ashe_options( 'single_page_show_author' ) === true ) : ?>
-		<span class="post-author"><?php esc_html_e( 'By', 'ashe' ); ?>&nbsp;<?php the_author_posts_link(); ?></span>
-		<?php endif; ?>
 		
 	</footer>
 
