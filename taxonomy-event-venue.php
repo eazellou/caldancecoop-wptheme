@@ -81,6 +81,12 @@ if ( is_front_page() ) {
 			}
 			?>
 
+			<!-- <h2>
+				<?php printf( __( 'Events at %s', 'eventorganiser' ), '<span>' . eo_get_venue_name( $venue_id ) . '</span>' );?>
+			</h2> -->
+
+			<?php //eo_get_template_part( 'eo-loop-events' ); //Lists the events ?>
+
 		</article>
 
 	</div><!-- .main-container -->
